@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/ColorPick_Panel"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="20dp">
+
+        <LinearLayout
+            android:id="@+id/color_row1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnRed"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginRight="@dimen/color_margin"
+                android:layout_marginTop="@dimen/color_margin"
+                android:background="@drawable/ic_color_red"
+                android:onClick="ColorRedPress"
+                android:stateListAnimator="@null" />
+
+            <Button
+                android:id="@+id/btnOgrange"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginRight="@dimen/color_margin"
+                android:layout_marginTop="@dimen/color_margin"
+                android:background="@drawable/ic_color_ogrange"
+                android:onClick="ColorOgrangePress"
+                android:stateListAnimator="@null" />
+
+            <Button
+                android:id="@+id/btnYellow"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginRight="@dimen/color_margin"
+                android:layout_marginTop="@dimen/color_margin"
+                android:background="@drawable/ic_color_yellow"
+                android:onClick="ColorYellowPress"
+                android:stateListAnimator="@null" />
+
+            <Button
+                android:id="@+id/btnGreen"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginRight="@dimen/color_margin"
+                android:layout_marginTop="@dimen/color_margin"
+                android:background="@drawable/ic_color_green"
+                android:onClick="ColorGreenPress"
+                android:stateListAnimator="@null" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/color_row2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/color_row1"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnBlue"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginRight="@dimen/color_margin"
+                android:layout_marginTop="@dimen/color_margin"
+                android:background="@drawable/ic_color_blue"
+                android:onClick="ColorBluePress"
+                android:stateListAnimator="@null" />
+
+            <Button
+                android:id="@+id/btnPurple"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginRight="@dimen/color_margin"
+                android:layout_marginTop="@dimen/color_margin"
+                android:background="@drawable/ic_color_purple"
+                android:onClick="ColorPurplePress"
+                android:stateListAnimator="@null" />
+
+            <Button
+                android:id="@+id/btnPink"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginRight="@dimen/color_margin"
+                android:layout_marginTop="@dimen/color_margin"
+                android:background="@drawable/ic_color_pink"
+                android:onClick="ColorPinkPress"
+                android:stateListAnimator="@null" />
+
+
+            <Button
+                android:id="@+id/btnBlack"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginRight="@dimen/color_margin"
+                android:layout_marginTop="@dimen/color_margin"
+                android:background="@drawable/ic_color_black"
+                android:onClick="ColorBlackPress"
+                android:stateListAnimator="@null" />
+        </LinearLayout>
+
+    </RelativeLayout>
+</LinearLayout>
