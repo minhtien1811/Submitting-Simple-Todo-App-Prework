@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Simple Todo App</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_edit_item">Edit Item</string>
+    <string name="title_activity_enter_new_item">Enter New Item</string>
+    <string name="title_activity_sd">sd</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="phone_number"><a href="tel:01286252840">01286252840</a></string>
+    <string name="gmail"><a href="mailto:minhtien1118@gmail.com">minhtien1118@gmail.com</a></string>
+    <string name="google_plus"><a href="https://plus.google.com/113466095852198098072">MINH NGUYEN</a></string>
+    <string name="facebook"><a href="https://www.facebook.com/AnhMinh1811">Nguyễn Phạm Anh Minh</a></string>
+</resources>
